@@ -28,5 +28,5 @@ COPY --from=build /usr/src/app/dist ./dist
 EXPOSE 3000
 
 # Comando de inicialização
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/server.js"]
 
